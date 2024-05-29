@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --color1:#F299B9 ;
+    --color2: #048ABF;
+    --color3: #A9D9D9;
+    --color4: #A69E32;
+    --color5:#F27649 ;
+    --color-blanco: #fff;
+    --color-negro:#000;
+    --color-gris-claro: #CCC;
+    --color-gris-oscuro:#333;   
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+    
+
+}
+h1{
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: -2px;
+}
+h2{
+    font-weight: 200;
+    font-size: 48px;
+    letter-spacing: -2px;
+    text-transform: lowercase;
+}
+h3{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#page-header{
+    background-color: var(--color-gris-claro);
+    padding: 15px 0;
+}
+.padded{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+@media (min-width: 1680px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        max-width:1600px;   
+    }
+}
+
+h5{
+    color: var(--color-gris-claro);
+}
